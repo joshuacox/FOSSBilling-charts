@@ -1,6 +1,6 @@
-# fossbilling_katernary
+# FOSSBilling
 
-A Helm chart for fossbilling_katernary
+A Helm chart for FOSSBilling
 
 ## Installing the Chart
 
