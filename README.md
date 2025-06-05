@@ -1,6 +1,6 @@
-# FOSSBilling
+# fossbilling
 
-A Helm chart for FOSSBilling
+A Helm chart for fossbilling
 
 ## Installing the Chart
 
@@ -8,20 +8,20 @@ To install the chart with the release name `my-release`:
 
 ```bash
 # Standard Helm install
-$ helm install  my-release fossbilling_katernary
+$ helm install  my-release fossbilling
 
 # To use a custom namespace and force the creation of the namespace
-$ helm install my-release --namespace my-namespace --create-namespace fossbilling_katernary
+$ helm install my-release --namespace my-namespace --create-namespace fossbilling
 
 # To use a custom values file
-$ helm install my-release -f my-values.yaml fossbilling_katernary
+$ helm install my-release -f my-values.yaml fossbilling
 ```
 
 See the [Helm documentation](https://helm.sh/docs/intro/using_helm/) for more information on installing and managing the chart.
 
 ## Configuration
 
-The following table lists the configurable parameters of the fossbilling_katernary chart and their default values.
+The following table lists the configurable parameters of the fossbilling chart and their default values.
 
 | Parameter                                                 | Default                   |
 | --------------------------------------------------------- | ------------------------- |
@@ -45,6 +45,3 @@ The following table lists the configurable parameters of the fossbilling_katerna
 | `mysql.serviceAccount`                                    | ``                        |
 
 
-
-This was created initially using [katernary](https://www.katenary.org) given the official [docker-compose.yaml](https://fossbilling.org/docs/getting-started/docker)
-katenary convert -c docker-compose.yaml -o ./charts
