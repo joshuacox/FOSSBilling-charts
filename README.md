@@ -45,3 +45,6 @@ The following table lists the configurable parameters of the fossbilling_katerna
 | `mysql.serviceAccount`                                    | ``                        |
 
 
+
+This was created initially using [katernary](https://www.katenary.org) given the official [docker-compose.yaml](https://fossbilling.org/docs/getting-started/docker)
+katenary convert -c docker-compose.yaml -o ./charts
